@@ -26,17 +26,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Formulario de cotización -> WhatsApp de Innovo Marketing
   const quoteForm = document.getElementById("quoteForm");
-  quoteForm.addEventListener("submit", e => {
+  quoteForm?.addEventListener("submit", e => {
     e.preventDefault();
 
     const data = new FormData(quoteForm);
-    const name = data.get("name")?.trim() || "No indicado";
-    const business = data.get("business")?.trim() || "No indicado";
-    const email = data.get("email")?.trim() || "No indicado";
-    const phone = data.get("phone")?.trim() || "No indicado";
-    const industry = data.get("industry")?.trim() || "No indicado";
-    const selectedPackage = data.get("package")?.trim() || "No seleccionado";
-    const project = data.get("project")?.trim() || "No indicado";
+    const get = name => String(data.get(name) || "").trim() || "No indicado";
+
+    const name = get("name");
+    const business = get("business");
+    const email = get("email");
+    const phone = get("phone");
+    const industry = get("industry");
+    const selectedPackage = get("package");
+    const project = get("project");
 
     const message = `Hola, Innovo Marketing. 👋
 
@@ -56,12 +58,13 @@ ${project}
 Enviado desde el sitio web de Innovo Marketing.`;
 
     const whatsappNumber = "50375766631";
-    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(message);
 
     const msg = document.getElementById("formMessage");
     msg.textContent = "¡Perfecto! Abriendo WhatsApp para enviar tu solicitud...";
     msg.style.color = "#75b0ff";
 
-    window.open(whatsappUrl, "_blank", "noopener,noreferrer");
+    // Navegación directa: evita que el navegador bloquee una ventana emergente.
+    window.location.href = whatsappUrl;
   });
 });
