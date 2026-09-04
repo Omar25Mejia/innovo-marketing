@@ -17,8 +17,4 @@ Sitio web comercial de Innovo Marketing.
 
 ## GitHub Pages
 
-Este proyecto es estático y está preparado para publicarse con GitHub Pages.
-
-El formulario actual es demostrativo; antes de usarlo comercialmente debe conectarse a un servicio real de formularios/correo.
-
-Los dominios, hosting, correo empresarial, plataformas de IA, calendarios, pagos y otros servicios externos pueden tener costos adicionales.
+Omar Mejia 
