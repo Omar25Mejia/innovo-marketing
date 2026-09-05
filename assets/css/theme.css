@@ -1,75 +1,29 @@
-/* INNOVO MARKETING — high-specificity final theme */
-html body{background:#eef2f5!important;color:#172331!important}
-html body main{background:#eef2f5!important}
-html body .site-header{background:#172633!important;border-bottom:1px solid #263a49!important;box-shadow:0 4px 18px rgba(20,35,48,.14)!important;backdrop-filter:none!important}
+/* INNOVO MARKETING — final dark visual theme */
+html body{background:#101b27!important;color:#f3f7fa!important}
+html body main{background:#101b27!important;color:#f3f7fa!important}
+html body .site-header{background:#172633!important;border-bottom:1px solid #263a49!important;box-shadow:0 4px 18px rgba(0,0,0,.22)!important;backdrop-filter:none!important}
 html body .navbar{height:74px!important}
-html body .brand{color:#fff!important}
-html body .brand span{color:#62c4bd!important}
-html body .nav-links{color:#dce6ed!important}
-html body .nav-links a{color:#dce6ed!important;background:transparent!important;border-radius:6px!important}
-html body .nav-links a:hover{background:#294152!important;color:#fff!important}
+html body .brand{color:#fff!important}.brand span{color:#62c4bd!important}
+html body .nav-links,html body .nav-links a{color:#dce6ed!important}.nav-links a{background:transparent!important;border-radius:6px!important}.nav-links a:hover{background:#294152!important;color:#fff!important}
 html body .nav-links .nav-cta{background:#2d83c5!important;color:#fff!important;border:1px solid #2d83c5!important;border-radius:6px!important}
-html body .nav-links .nav-cta:hover{background:#3894d8!important}
 html body .menu-toggle{background:#243b4c!important;color:#fff!important;border:1px solid #385263!important}
-html body .section,html body .compact-process,html body .cta-banner-section{background:#eef2f5!important}
-html body .visual-experience{background:#172633!important;color:#fff!important}
-html body .showreel-section,html body .service-detail.alt,html body .extras-section,html body .contact-section{background:#f7f9fb!important}
-html body .logo-marquee{background:#e4ebf0!important;border-top:1px solid #d6e0e7!important;border-bottom:1px solid #d6e0e7!important}
-html body .logo-marquee span{color:#526576!important}
-html body .logo-marquee b{color:#2f9d98!important}
-html body .section-heading h2,html body .section-heading h3,html body h2,html body h3{color:#172331!important}
-html body .visual-experience .section-heading h2,html body .visual-experience .section-heading>p,html body .visual-experience h2{color:#fff!important}
-html body .section-heading p:not(.eyebrow),html body .section p{color:#5f6f7d!important}
-html body .visual-experience .section-heading>p{color:#c5d0da!important}
-html body .eyebrow{color:#2378b9!important;font-weight:800!important}
-html body .visual-experience .eyebrow{color:#62c4bd!important}
-html body h2 span,html body .service-detail h2 span,html body .split-highlight h2 span,html body .cta-banner h2 span{color:#2f9d98!important}
-html body .service-card,html body .pricing-card,html body .solution-cards>div,html body .care-card,html body .experience-card,html body .browser-card,html body .cta-banner,html body .custom-banner{background:#fff!important;border:1px solid #d8e1e8!important;box-shadow:0 10px 28px rgba(30,52,68,.07)!important;color:#172331!important}
-html body .visual-experience .experience-card{background:#223447!important;border-color:rgba(255,255,255,.13)!important;color:#fff!important;box-shadow:0 12px 30px rgba(0,0,0,.2)!important}
-html body .visual-experience .experience-card h3,html body .visual-experience .experience-card small,html body .visual-experience .experience-card span{color:#fff!important}
-html body .visual-experience .experience-card small{color:#62c4bd!important}
-html body .visual-experience .experience-card span{color:#8bd5d0!important}
-html body .service-card p,html body .pricing-card p,html body .solution-cards>div p,html body .care-card p,html body .experience-card p{color:#647483!important}
-html body .service-card:hover,html body .pricing-card:hover,html body .solution-cards>div:hover,html body .care-card:hover{border-color:#a9cbdc!important;box-shadow:0 16px 36px rgba(30,52,68,.11)!important}
-html body .pricing-card.featured{background:#edf7f7!important;border-color:#78bbb7!important;box-shadow:0 18px 40px rgba(47,157,152,.13)!important}
-html body .popular{background:#2d83c5!important;color:#fff!important}
-html body .icon,html body .floating-card>span{background:#e7f2f5!important;color:#2378b9!important}
-html body .service-card a,html body .text-link,html body .contact-details a{color:#2378b9!important}
-html body .process-item{border-top-color:#b7c9d6!important}
-html body .process-item span{color:#2f9d98!important}
-html body .btn-primary{background:#2378b9!important;color:#fff!important;border:1px solid #2378b9!important;box-shadow:0 8px 20px rgba(35,120,185,.18)!important}
-html body .btn-primary:hover{background:#2d88cc!important;color:#fff!important}
-html body .btn-secondary{background:#fff!important;color:#172331!important;border:1px solid #cbd7e0!important}
-html body .btn-secondary:hover{background:#edf3f6!important;border-color:#aebfcb!important}
-html body .page-hero{background:#e3ebf0!important;color:#172331!important}
-html body .page-hero h1,html body .page-hero p{color:#172331!important}
-html body .page-hero h1 span{color:#2f9d98!important}
-html body .hero-home .hero-shade{background:linear-gradient(90deg,rgba(10,25,38,.93),rgba(10,25,38,.70),rgba(10,25,38,.25))!important}
-html body .hero h1,html body .hero .hero-text,html body .hero .hero-points{color:#fff!important}
-html body .hero h1 span,html body .hero .eyebrow{color:#62c4bd!important}
-html body .hero-glass-card{background:rgba(20,39,53,.9)!important;border:1px solid rgba(255,255,255,.22)!important;box-shadow:0 25px 55px rgba(0,0,0,.28)!important}
-html body .floating-pill{display:none!important}
-html body .browser-card{background:#fff!important;border-color:#cbd9e2!important}
-html body .browser-top{background:#e7edf1!important}
-html body .browser-content{background:#f4f7f9!important}
-html body .mini-button{background:#2378b9!important}
-html body .mini-hero small,html body .screen-overlay small,html body .mini-hero em{color:#2f9d98!important}
-html body .showreel,html body .showcase-video{background:#fff!important;border-color:#d6e0e7!important}
-html body .showreel-bg{background:#e6edf1!important}
-html body .play-button{background:#2378b9!important;color:#fff!important}
-html body .portfolio-section{background:#172633!important}
-html body .portfolio-heading h2,html body .portfolio-heading>p{color:#fff!important}
-html body .portfolio-heading h2 span,html body .portfolio-overlay span{color:#62c4bd!important}
-html body .portfolio-overlay h3,html body .portfolio-overlay p{color:#fff!important}
-html body .carousel-arrow{background:#fff!important;color:#172331!important;border-color:#d5e0e7!important}
-html body .carousel-arrow:hover{background:#2378b9!important;color:#fff!important;border-color:#2378b9!important}
-html body .dot{background:#657786!important}html body .dot.active{background:#62c4bd!important}
-html body .quote-form{background:#fff!important;border:1px solid #d8e1e8!important;box-shadow:0 12px 32px rgba(30,52,68,.07)!important}
-html body .quote-form label{color:#334554!important}
-html body .quote-form input,html body .quote-form select,html body .quote-form textarea{background:#f7f9fb!important;color:#172331!important;border:1px solid #ccd8e0!important}
-html body .quote-form input::placeholder,html body .quote-form textarea::placeholder{color:#8796a2!important}
-html body .quote-form input:focus,html body .quote-form select:focus,html body .quote-form textarea:focus{border-color:#2f9d98!important;box-shadow:0 0 0 3px rgba(47,157,152,.1)!important}
-html body footer{background:#172633!important;color:#cbd7df!important;border-top:1px solid #263a49!important}
-html body footer .brand{color:#fff!important}
-html body footer p,html body footer a{color:#b8c6d0!important}
-@media(max-width:900px){html body .nav-links{background:#1b2d3b!important;border:1px solid #355061!important;box-shadow:0 18px 40px rgba(0,0,0,.24)!important}html body .nav-links a{color:#dce6ed!important}}
+html body .section,html body .visual-experience,html body .compact-process,html body .cta-banner-section,html body .packages-section,html body .care-section{background:#101b27!important;color:#f3f7fa!important}
+html body .showreel-section,html body .service-detail.alt,html body .extras-section,html body .contact-section{background:#172633!important;color:#f3f7fa!important}
+html body .logo-marquee{background:#e4ebf0!important;border-top:1px solid #d6e0e7!important;border-bottom:1px solid #d6e0e7!important}.logo-marquee span{color:#526576!important}.logo-marquee b{color:#2f9d98!important}
+html body h2,html body h3,html body .section-heading h2,html body .section-heading h3{color:#f3f7fa!important}html body p,html body .section-heading p:not(.eyebrow),html body .section p{color:#bdcbd5!important}
+html body .eyebrow{color:#62c4bd!important;font-weight:800!important}html body h2 span,html body .service-detail h2 span,html body .split-highlight h2 span,html body .cta-banner h2 span,html body .page-hero h1 span{color:#62c4bd!important}
+html body .service-card,html body .pricing-card,html body .solution-cards>div,html body .care-card,html body .experience-card,html body .browser-card,html body .cta-banner,html body .custom-banner{background:#1b2d3c!important;border:1px solid #304555!important;box-shadow:0 12px 32px rgba(0,0,0,.2)!important;color:#f3f7fa!important}
+html body .service-card p,html body .pricing-card p,html body .solution-cards>div p,html body .care-card p,html body .experience-card p{color:#b9c7d1!important}html body .pricing-card.featured{background:#203746!important;border-color:#62c4bd!important}.popular{background:#2d83c5!important;color:#fff!important}
+html body .pricing-card li,html body .care-card li{color:#b9c7d1!important}html body .price,html body .monthly{color:#f3f7fa!important}.price small,.monthly small{color:#91a4b3!important}
+html body .icon,html body .floating-card>span{background:#29445a!important;color:#65c5bf!important}html body .service-card a,html body .text-link,html body .contact-details a{color:#65c5bf!important}
+html body .process-item{border-top-color:#355260!important}.process-item span{color:#62c4bd!important}.process-item h3{color:#f3f7fa!important}.process-item p{color:#aebdc8!important}
+html body .btn-primary{background:#2378b9!important;color:#fff!important;border:1px solid #2378b9!important}.btn-primary:hover{background:#2d88cc!important}html body .btn-secondary{background:#24384b!important;color:#fff!important;border:1px solid #415667!important}.btn-secondary:hover{background:#2c4356!important}
+html body .page-hero{background:#172633!important;color:#f3f7fa!important}.page-hero h1,.page-hero p{color:#f3f7fa!important}
+html body .hero{background:#182737!important}.hero-home .hero-shade{background:linear-gradient(90deg,rgba(18,31,45,.92),rgba(18,31,45,.72),rgba(18,31,45,.28))!important}.hero h1,.hero .hero-text,.hero .hero-points{color:#fff!important}.hero h1 span,.hero .eyebrow{color:#62c4bd!important}
+html body .hero-glass-card{background:rgba(20,39,53,.9)!important;border:1px solid rgba(255,255,255,.22)!important}.floating-pill{display:none!important}
+html body .showreel,html body .showcase-video{background:#172a39!important;border-color:#385565!important}.showreel-bg{background:#203747!important}.play-button{background:#2378b9!important;color:#fff!important}
+html body .portfolio-section{background:#172633!important}.portfolio-heading h2,.portfolio-heading>p{color:#fff!important}.portfolio-heading h2 span,.portfolio-overlay span{color:#62c4bd!important}.portfolio-overlay h3,.portfolio-overlay p{color:#fff!important}
+html body .carousel-arrow{background:#24384b!important;color:#fff!important;border-color:#415667!important}.carousel-arrow:hover{background:#2378b9!important}.dot{background:#526576!important}.dot.active{background:#62c4bd!important}
+html body .quote-form{background:#1b2d3c!important;border:1px solid #304555!important}.quote-form label{color:#dbe5eb!important}.quote-form input,.quote-form select,.quote-form textarea{background:#24384b!important;color:#fff!important;border-color:#405565!important}.quote-form input::placeholder,.quote-form textarea::placeholder{color:#91a0ad!important}
+html body footer{background:#172633!important;color:#cbd7df!important;border-top:1px solid #263a49!important}footer .brand{color:#fff!important}footer p,footer a{color:#b8c6d0!important}html body .package-note{color:#94a7b5!important}
+@media(max-width:900px){html body .nav-links{background:#1b2d3b!important;border:1px solid #355061!important;box-shadow:0 18px 40px rgba(0,0,0,.24)!important}}
