@@ -2,9 +2,9 @@
   const API_URL = window.INNOVO_AI_API_URL || 'https://innovo-marketing.vercel.app/api/chat';
   const lang = (localStorage.getItem('innovo-lang') || navigator.language || 'es').toLowerCase().startsWith('en') ? 'en' : 'es';
   const copy = lang === 'en' ? {
-    launcher:'Innovo AI', online:'Virtual assistant · Online', welcome:'Hi! I’m Innovo AI. I can help you figure out what your business needs and give you a starting point. What are you looking to build?', placeholder:'Type your message...', send:'Send', quick:['🌐 Website','🤖 AI & automation','🛒 Online store','💻 Custom system'], error:'I couldn’t connect right now. You can message us directly on WhatsApp: +503 7576-6631.', typing:'Thinking...'
+    launcher:'Innovo AI', online:'Virtual assistant · Online', welcome:'Hi! I’m Innovo AI. I can help you figure out what your business needs and give you a starting point. What are you looking to build?', placeholder:'Type your message...', send:'Send', quick:['🌐 Website','🤖 AI & automation','🛒 Online store','💻 Custom system'], error:'I couldn’t connect right now. You can message Franklin Aguirre directly on WhatsApp: +1 (240) 437-7959.', typing:'Thinking...'
   } : {
-    launcher:'Innovo AI', online:'Asistente virtual · En línea', welcome:'¡Hola! Soy Innovo AI. Puedo ayudarte a definir qué necesita tu negocio y darte un punto de partida. ¿Qué te gustaría construir?', placeholder:'Escribe tu mensaje...', send:'Enviar', quick:['🌐 Página web','🤖 IA y automatización','🛒 Tienda online','💻 Sistema a medida'], error:'No pude conectarme en este momento. Puedes escribirnos directamente por WhatsApp: +503 7576-6631.', typing:'Pensando...'
+    launcher:'Innovo AI', online:'Asistente virtual · En línea', welcome:'¡Hola! Soy Innovo AI. Puedo ayudarte a definir qué necesita tu negocio y darte un punto de partida. ¿Qué te gustaría construir?', placeholder:'Escribe tu mensaje...', send:'Enviar', quick:['🌐 Página web','🤖 IA y automatización','🛒 Tienda online','💻 Sistema a medida'], error:'No pude conectarme en este momento. Puedes escribirle directamente a Franklin Aguirre por WhatsApp: +1 (240) 437-7959.', typing:'Pensando...'
   };
 
   const state = { messages: [], open:false, busy:false };
@@ -46,4 +46,8 @@
       typing.remove(); addMessage('bot',copy.error);
     } finally { setBusy(false); input.focus(); }
   });
+
+  const advisorScript = document.createElement('script');
+  advisorScript.src = 'assets/js/advisor.js?v=20260905-1';
+  document.body.appendChild(advisorScript);
 })();
