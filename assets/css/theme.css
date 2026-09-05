@@ -40,7 +40,7 @@ html body .hero-home .hero-shade{background:linear-gradient(90deg,rgba(10,25,38,
 html body .hero h1,html body .hero .hero-text,html body .hero .hero-points{color:#fff!important}
 html body .hero h1 span,html body .hero .eyebrow{color:#62c4bd!important}
 html body .hero-glass-card{background:rgba(20,39,53,.9)!important;border:1px solid rgba(255,255,255,.22)!important;box-shadow:0 25px 55px rgba(0,0,0,.28)!important}
-html body .floating-pill{background:#fff!important;color:#172331!important;border:1px solid #d8e1e8!important}
+html body .floating-pill{display:none!important}
 html body .browser-card{background:#fff!important;border-color:#cbd9e2!important}
 html body .browser-top{background:#e7edf1!important}
 html body .browser-content{background:#f4f7f9!important}
