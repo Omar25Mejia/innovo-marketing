@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Innovo Marketing builds modern websites, digital solutions and business automation." />
+  <meta name="description" content="Innovo Marketing crea sitios web modernos, soluciones digitales y automatización para negocios." />
   <title>Innovo Marketing | Sitios web. Automatización. Crecimiento.</title>
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
@@ -11,7 +11,7 @@
   <header class="site-header" id="top">
     <nav class="navbar container">
       <a href="#top" class="brand"><span>INNOVO</span> MARKETING</a>
-      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <button class="menu-toggle" aria-label="Abrir navegación" aria-expanded="false">☰</button>
       <div class="nav-links">
         <a href="#services">Servicios</a>
         <a href="#process">Proceso</a>
@@ -176,14 +176,14 @@
     <section class="contact-section" id="contact">
       <div class="container contact-grid">
         <div class="reveal"><p class="eyebrow">CONSTRUYAMOS ALGO INCREÍBLE</p><h2>Cuéntanos sobre<br><span>tu próximo proyecto.</span></h2><p>Compártenos algunos detalles sobre tu negocio y lo que quieres construir. Usaremos esta información para entender tus necesidades y preparar los siguientes pasos.</p><div class="contact-details"><span>INNOVO MARKETING</span><span>Sitios web • Automatización • Crecimiento</span></div></div>
-        <form class="quote-form reveal" id="quoteForm">
+        <form class="quote-form reveal" id="quoteForm" onsubmit="enviarPorWhatsApp(event)">
           <div class="form-row"><label>Nombre<input required name="name" placeholder="Tu nombre" /></label><label>Nombre del negocio<input name="business" placeholder="Nombre del negocio" /></label></div>
           <div class="form-row"><label>Correo electrónico<input required type="email" name="email" placeholder="you@email.com" /></label><label>Teléfono<input name="phone" placeholder="Número de teléfono" /></label></div>
           <label>Tipo de negocio<input name="industry" placeholder="¿Qué tipo de negocio tienes?" /></label>
           <label>Paquete de página web<select id="package" name="package"><option value="">Selecciona un paquete</option><option>Inicial — $300</option><option>Intermedio — $450</option><option>Premium — $600</option><option>Solución personalizada</option></select></label>
           <label>Cuéntanos sobre tu proyecto<textarea required name="project" rows="5" placeholder="¿Qué te gustaría construir?"></textarea></label>
           <button type="submit" class="btn btn-primary full">Solicitar mi cotización gratis →</button>
-          <p class="form-message" id="formMessage">Formulario de demostración: antes de publicar, conecta este formulario a tu correo o servicio de formularios preferido.</p>
+          <p class="form-message" id="formMessage"></p>
         </form>
       </div>
     </section>
@@ -192,6 +192,36 @@
   <footer>
     <div class="container footer-row"><a href="#top" class="brand"><span>INNOVO</span> MARKETING</a><p>© <span id="year"></span> Innovo Marketing. Sitios web. Automatización. Crecimiento.</p><a href="#top">Volver arriba ↑</a></div>
   </footer>
-  <script src="assets/js/main.js"></script>
+  <script>
+function enviarPorWhatsApp(event) {
+  event.preventDefault();
+  const form = document.getElementById('quoteForm');
+  const get = (name) => {
+    const field = form.elements[name];
+    return field && field.value.trim() ? field.value.trim() : 'No indicado';
+  };
+  const mensaje = `Hola, Innovo Marketing. 👋
+
+Quiero solicitar una cotización para mi negocio.
+
+*Datos del cliente*
+Nombre: ${get('name')}
+Negocio: ${get('business')}
+Correo: ${get('email')}
+Teléfono: ${get('phone')}
+Tipo de negocio: ${get('industry')}
+Paquete de interés: ${get('package')}
+
+*Detalles del proyecto*
+${get('project')}
+
+Enviado desde el sitio web de Innovo Marketing.`;
+  const url = 'https://wa.me/50375766631?text=' + encodeURIComponent(mensaje);
+  const msg = document.getElementById('formMessage');
+  if (msg) msg.textContent = 'Abriendo WhatsApp...';
+  window.location.assign(url);
+}
+</script>
+<script src="assets/js/main.js?v=20260905-1"></script>
 </body>
 </html>
