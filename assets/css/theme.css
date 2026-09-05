@@ -11,16 +11,24 @@ html body .nav-links a:hover{background:#294152!important;color:#fff!important}
 html body .nav-links .nav-cta{background:#2d83c5!important;color:#fff!important;border:1px solid #2d83c5!important;border-radius:6px!important}
 html body .nav-links .nav-cta:hover{background:#3894d8!important}
 html body .menu-toggle{background:#243b4c!important;color:#fff!important;border:1px solid #385263!important}
-html body .section,html body .visual-experience,html body .compact-process,html body .cta-banner-section{background:#eef2f5!important}
+html body .section,html body .compact-process,html body .cta-banner-section{background:#eef2f5!important}
+html body .visual-experience{background:#172633!important;color:#fff!important}
 html body .showreel-section,html body .service-detail.alt,html body .extras-section,html body .contact-section{background:#f7f9fb!important}
 html body .logo-marquee{background:#e4ebf0!important;border-top:1px solid #d6e0e7!important;border-bottom:1px solid #d6e0e7!important}
 html body .logo-marquee span{color:#526576!important}
 html body .logo-marquee b{color:#2f9d98!important}
 html body .section-heading h2,html body .section-heading h3,html body h2,html body h3{color:#172331!important}
+html body .visual-experience .section-heading h2,html body .visual-experience .section-heading>p,html body .visual-experience h2{color:#fff!important}
 html body .section-heading p:not(.eyebrow),html body .section p{color:#5f6f7d!important}
+html body .visual-experience .section-heading>p{color:#c5d0da!important}
 html body .eyebrow{color:#2378b9!important;font-weight:800!important}
+html body .visual-experience .eyebrow{color:#62c4bd!important}
 html body h2 span,html body .service-detail h2 span,html body .split-highlight h2 span,html body .cta-banner h2 span{color:#2f9d98!important}
 html body .service-card,html body .pricing-card,html body .solution-cards>div,html body .care-card,html body .experience-card,html body .browser-card,html body .cta-banner,html body .custom-banner{background:#fff!important;border:1px solid #d8e1e8!important;box-shadow:0 10px 28px rgba(30,52,68,.07)!important;color:#172331!important}
+html body .visual-experience .experience-card{background:#223447!important;border-color:rgba(255,255,255,.13)!important;color:#fff!important;box-shadow:0 12px 30px rgba(0,0,0,.2)!important}
+html body .visual-experience .experience-card h3,html body .visual-experience .experience-card small,html body .visual-experience .experience-card span{color:#fff!important}
+html body .visual-experience .experience-card small{color:#62c4bd!important}
+html body .visual-experience .experience-card span{color:#8bd5d0!important}
 html body .service-card p,html body .pricing-card p,html body .solution-cards>div p,html body .care-card p,html body .experience-card p{color:#647483!important}
 html body .service-card:hover,html body .pricing-card:hover,html body .solution-cards>div:hover,html body .care-card:hover{border-color:#a9cbdc!important;box-shadow:0 16px 36px rgba(30,52,68,.11)!important}
 html body .pricing-card.featured{background:#edf7f7!important;border-color:#78bbb7!important;box-shadow:0 18px 40px rgba(47,157,152,.13)!important}
