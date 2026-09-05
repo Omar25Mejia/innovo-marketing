@@ -1,0 +1,98 @@
+/* INNOVO MARKETING — final visual theme override */
+:root{
+  --bg:#eef2f5;
+  --bg2:#f7f9fb;
+  --card:#ffffff;
+  --line:#d9e1e8;
+  --text:#172331;
+  --muted:#5f6f7d;
+  --blue:#2378b9;
+  --blue2:#2378b9;
+  --cyan:#2f9d98;
+}
+html,body{background:#eef2f5!important;color:#172331!important}
+body{font-family:inherit}
+.site-header{background:#172633!important;border-bottom:1px solid #263a49!important;box-shadow:0 4px 18px rgba(20,35,48,.14)!important;backdrop-filter:none!important}
+.navbar{height:74px!important}
+.brand{color:#fff!important}
+.brand span{color:#62c4bd!important}
+.nav-links{color:#dce6ed!important}
+.nav-links a{color:#dce6ed!important;background:transparent!important;border-radius:6px!important}
+.nav-links a:hover{background:#294152!important;color:#fff!important}
+.nav-links .nav-cta{background:#2d83c5!important;color:#fff!important;border:1px solid #2d83c5!important;border-radius:6px!important}
+.nav-links .nav-cta:hover{background:#3894d8!important}
+.menu-toggle{background:#243b4c!important;color:#fff!important;border:1px solid #385263!important}
+
+main{background:#eef2f5!important}
+.section{background:#eef2f5!important}
+.section:nth-of-type(even){background:#f7f9fb!important}
+.visual-experience,.compact-process,.cta-banner-section{background:#eef2f5!important}
+.showreel-section,.service-detail.alt,.extras-section,.contact-section{background:#f7f9fb!important}
+.logo-marquee{background:#e4ebf0!important;border-top:1px solid #d6e0e7!important;border-bottom:1px solid #d6e0e7!important}
+.logo-marquee span{color:#526576!important}
+.logo-marquee b{color:#2f9d98!important}
+
+.section-heading h2,.section-heading h3,h2,h3{color:#172331!important}
+.section-heading p:not(.eyebrow),.section p{color:#5f6f7d!important}
+.eyebrow{color:#2378b9!important;font-weight:800!important}
+h2 span,.service-detail h2 span,.split-highlight h2 span,.cta-banner h2 span{color:#2f9d98!important}
+
+.service-card,.pricing-card,.solution-cards>div,.care-card,.experience-card,.browser-card,.cta-banner,.custom-banner{background:#fff!important;border:1px solid #d8e1e8!important;box-shadow:0 10px 28px rgba(30,52,68,.07)!important;color:#172331!important}
+.service-card p,.pricing-card p,.solution-cards>div p,.care-card p,.experience-card p{color:#647483!important}
+.service-card:hover,.pricing-card:hover,.solution-cards>div:hover,.care-card:hover{border-color:#a9cbdc!important;box-shadow:0 16px 36px rgba(30,52,68,.11)!important}
+.pricing-card.featured{background:#edf7f7!important;border-color:#78bbb7!important;box-shadow:0 18px 40px rgba(47,157,152,.13)!important}
+.popular{background:#2d83c5!important;color:#fff!important}
+.icon,.floating-card>span{background:#e7f2f5!important;color:#2378b9!important}
+.service-card a,.text-link,.contact-details a{color:#2378b9!important}
+.process-item{border-top-color:#b7c9d6!important}
+.process-item span{color:#2f9d98!important}
+
+.btn-primary{background:#2378b9!important;color:#fff!important;border:1px solid #2378b9!important;box-shadow:0 8px 20px rgba(35,120,185,.18)!important}
+.btn-primary:hover{background:#2d88cc!important;color:#fff!important}
+.btn-secondary{background:#fff!important;color:#172331!important;border:1px solid #cbd7e0!important}
+.btn-secondary:hover{background:#edf3f6!important;border-color:#aebfcb!important}
+
+.page-hero{background:#e3ebf0!important;color:#172331!important}
+.page-hero h1,.page-hero p{color:#172331!important}
+.page-hero h1 span{color:#2f9d98!important}
+
+.hero-home .hero-shade{background:linear-gradient(90deg,rgba(10,25,38,.93),rgba(10,25,38,.70),rgba(10,25,38,.25))!important}
+.hero h1,.hero .hero-text,.hero .hero-points{color:#fff!important}
+.hero h1 span{color:#62c4bd!important}
+.hero .eyebrow{color:#62c4bd!important}
+.hero-glass-card{background:rgba(20,39,53,.9)!important;border:1px solid rgba(255,255,255,.22)!important;box-shadow:0 25px 55px rgba(0,0,0,.28)!important}
+.floating-pill{background:#fff!important;color:#172331!important;border:1px solid #d8e1e8!important}
+
+.browser-card{background:#fff!important;border-color:#cbd9e2!important}
+.browser-top{background:#e7edf1!important}
+.browser-content{background:#f4f7f9!important}
+.mini-button{background:#2378b9!important}
+.mini-hero small,.screen-overlay small,.mini-hero em{color:#2f9d98!important}
+.showreel{background:#fff!important;border-color:#d6e0e7!important}
+.showreel-bg{background:#e6edf1!important}
+.showcase-video{background:#fff!important;border-color:#d6e0e7!important}
+.play-button{background:#2378b9!important;color:#fff!important}
+
+.portfolio-section{background:#172633!important}
+.portfolio-heading h2,.portfolio-heading>p{color:#fff!important}
+.portfolio-heading h2 span{color:#62c4bd!important}
+.portfolio-overlay h3,.portfolio-overlay p{color:#fff!important}
+.portfolio-overlay span{color:#62c4bd!important}
+.carousel-arrow{background:#fff!important;color:#172331!important;border-color:#d5e0e7!important}
+.carousel-arrow:hover{background:#2378b9!important;color:#fff!important;border-color:#2378b9!important}
+.dot{background:#657786!important}.dot.active{background:#62c4bd!important}
+
+.quote-form{background:#fff!important;border:1px solid #d8e1e8!important;box-shadow:0 12px 32px rgba(30,52,68,.07)!important}
+.quote-form label{color:#334554!important}
+.quote-form input,.quote-form select,.quote-form textarea{background:#f7f9fb!important;color:#172331!important;border:1px solid #ccd8e0!important}
+.quote-form input::placeholder,.quote-form textarea::placeholder{color:#8796a2!important}
+.quote-form input:focus,.quote-form select:focus,.quote-form textarea:focus{border-color:#2f9d98!important;box-shadow:0 0 0 3px rgba(47,157,152,.1)!important}
+
+footer{background:#172633!important;color:#cbd7df!important;border-top:1px solid #263a49!important}
+footer .brand{color:#fff!important}
+footer p,footer a{color:#b8c6d0!important}
+
+@media(max-width:900px){
+ .nav-links{background:#1b2d3b!important;border:1px solid #355061!important;box-shadow:0 18px 40px rgba(0,0,0,.24)!important}
+ .nav-links a{color:#dce6ed!important}
+}
